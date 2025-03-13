@@ -1,0 +1,13 @@
+# Fichiers de log et temporaires
+scan_logs.log
+*.log
+*.pyc
+__pycache__/
+*.zip
+
+# Fichiers de rapport générés
+scan_report.json
+scan_report.html
+
+# Cache WebDriver Manager
+.wdm/

