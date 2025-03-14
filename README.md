@@ -12,7 +12,7 @@
 
 ## 🔥 Fonctionnalités
 
-✅ **Détection de vulnérabilités** : XSS, SQL Injection, LFI/RFI, SSRF, CSRF, IDOR, etc.  
+✅ **Détection de vulnérabilités** : XSS, SQL Injection, LFI/RFI, SSRF.  
 ✅ **Support multi-threads** : Analyse rapide avec exécution parallèle.  
 ✅ **Rendu JavaScript** : Compatible avec les sites dynamiques via Selenium.  
 ✅ **Rapport détaillé** : Génère un rapport JSON des vulnérabilités détectées.  
