@@ -1,6 +1,6 @@
 # 🚀 MyWebVulnScanner - Scanner de Vulnérabilités Web
 
-![MyWebVulnScanner Banner](https://via.placeholder.com/1200x400?text=MyWebVulnScanner)
+[![MyWebVulnScanner](https://img.shields.io/badge/WebVulnScanner-Security_Tool-blueviolet?style=for-the-badge&logo=github)]
 
 **MyWebVulnScanner** est un outil open-source automatisé conçu pour détecter les vulnérabilités web courantes sur des sites web. Il est destiné aux développeurs, testeurs de sécurité et passionnés souhaitant analyser la sécurité de leurs applications web.
 
