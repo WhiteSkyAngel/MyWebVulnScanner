@@ -16,6 +16,18 @@
 
 ---
 
+## 📅 Fonctionnalités à venir
+
+Le projet est en développement actif. Voici les améliorations prévues :
+
+🚀 **Nouveaux tests** : Détection de vulnérabilités **XXE** (XML External Entity), **désérialisation non sécurisée**, et erreurs de configuration **CORS**.  
+🚀 **Payloads améliorés** : Ajout de **payloads SSRF** et **payloads dynamiques** adaptés au contexte des champs.  
+🚀 **Couverture étendue** : Crawl des **ressources JavaScript/AJAX** et scan des **sous-domaines**.  
+🚀 **Expérience utilisateur** : Interface **CLI plus riche**, rapport visuel **HTML**, et **progression en temps réel**.  
+🚀 **Optimisations** : Gestion avancée des **erreurs réseau** et **cache des réponses** pour accélérer les scans.  
+
+---
+
 ## 📌 Prérequis
 
 - 🔹 **Python 3.8+**
@@ -102,30 +114,11 @@ my_web_vuln_scanner/
 
 ---
 
-## 🤝 Contribution
-
-Les contributions sont les bienvenues ! Pour contribuer :
-
-1. **Forkez** le dépôt.
-2. **Créez une branche** pour vos modifications :
-   ```bash
-   git checkout -b feature/nouvelle-fonction
-   ```
-3. **Commitez vos changements** :
-   ```bash
-   git commit -m "Ajout de X"
-   ```
-4. **Poussez sur votre fork** :
-   ```bash
-   git push origin feature/nouvelle-fonction
-   ```
-5. **Soumettez une pull request**.
-
----
-
 ## 📜 Licence
 
 Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
 ---
 
@@ -138,5 +131,3 @@ Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de
 ## 💡 Remerciements
 
 Inspiré par les outils de sécurité open-source et la communauté de la cybersécurité.
-
-
